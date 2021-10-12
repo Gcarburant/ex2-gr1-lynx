@@ -21,12 +21,12 @@
         </nav>
     </header>
     <section class="principale">
-        <form action="javascript: return false">
+        <form method="post" action="connexion.php">
             <fieldset>
                 <legend>Connexion à Lynx</legend>
-                <input type="text" placeholder="Adresse courriel">
+                <input type="text" name="courriel" placeholder="Adresse courriel">
                 <input type="password" name="mdp" id="mdp" placeholder="Mot de passe">
-                <input type="button" value="Se connecter">
+                <input type="submit" value="Se connecter">
             </fieldset>
             <div class="actions-compte">
                 <a href="#">Mot de passe oublié ?</a>

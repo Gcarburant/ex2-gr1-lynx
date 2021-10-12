@@ -117,7 +117,7 @@ section.principale form input {
   color: #141a2e;
 }
 
-section.principale form input[type="button"] {
+section.principale form input[type="submit"] {
   background-color: olivedrab;
   color: #141a2e;
   cursor: pointer;
